@@ -101,12 +101,23 @@ p{
     text-align: justify;
 }
 
-.banner{
+
+.bannertexto{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/lápices.jpg");
+    margin-top: 75px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
     display: flex;
+    flex-direction: column;
+    position:initial;
+    align-items: center;
     margin: auto;
-    margin-top: 10px;
-    width:80vw;
-    transition: transform 10s;
+    color: white;
+
 }
 
 ul{
@@ -234,7 +245,6 @@ footer{
 }
 
 
-
 .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -262,6 +272,34 @@ footer{
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.sucursal{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.sucursal p{
+    background-color: white;
+}
+
+.sucursales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom:15px;
+    background-color: white;
+}
+
+.sucursalesdiv{
+    text-align: center;
+}
+
+.mapa{
+    width:500px;
+    height:350px;
 }
 
 @media only screen and (min-width:425px) {
@@ -308,4 +346,18 @@ footer{
     
     }
 
+    .mapa{
+        width:250px;
+        height:150px;
+    }
+
+    .sucursales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        margin-bottom:15px;
+        background-color: white;
+        width: 250px;
+    }
 }
