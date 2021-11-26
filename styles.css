@@ -11,7 +11,8 @@ html{
 #lista-productos{
     margin: 3px;
     padding: 3px;
-    text-align: left;
+    justify-content: space-around;
+
 }
 
 #lista-productos li{
