@@ -3,6 +3,33 @@
     padding: 0px;
     margin: 0px;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#lista-productos{
+    margin: 3px;
+    padding: 3px;
+    text-align: left;
+}
+
+#lista-productos li{
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    list-style: none;
+}
+
+#lista-productos p{
+    background-color: white;
+}
+
+#lista-productos h2{
+    background-color: white;
+}
+
+
 header{
     background-color: white;
     position: -webkit-sticky;
@@ -34,7 +61,7 @@ a{
     background-color: white;
 }
 
-p{
+.headertext{
     background-color: white;
 }
 
@@ -42,10 +69,217 @@ p{
     height: 35px;
 }
 
+.carroyrayas{
+    background-color: white;
+}
+
+#menudesplegable{
+    font-size: 20px;
+    font-family:  'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    margin: 15px;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    background-color: white;
+}
+
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 35px;
+    margin: 15px;
+    text-align: justify;
+}
+
+.banner{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width:80vw;
+    transition: transform 10s;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productobox{
+    margin: 15px;
+    list-style: none;
+}
+
+.productobox h1{
+    background-color: white;
+    width: 290px;
+    margin: 0%;
+}
+
+.productobox p{
+    background-color: white;
+    width: 290px;
+    margin: 0%;
+}
+
+.mostrando{
+    display: flex;
+}
+
+.nomostrando{
+    display: none;
+}
+
+.titulosfooter{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    background-color: white;
+}
+
+.textosfooter{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    background-color: white;
+}
+
+footer{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+.footerul{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.imgprod{
+    height: 290px;
+    width: 290px;
+}
+
+.productos-agregados{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+
+}
+
+#productos-agregados li{
+    background-color: white;
+}
+#productos-agregados h2{
+    background-color: white;
+    margin: 15px;
+}
+#productos-agregados p{
+    background-color: white;
+}
+
+.btn-agregar{
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.imgagregada{
+    height: 100px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#total{
+    background-color: white;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: space-around;
+    margin: auto;
+    width: 200px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (min-width:425px) {
     .rayas{
         display: none;
-    } 
+    }
+
+    #menudesplegable{
+        display: none;
+    }
+
+    .modalelementos{
+        background-color: white;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    
+    }
 }
 
 @media only screen and (max-width:425px) {
@@ -56,7 +290,22 @@ p{
         display: flex;
     } 
     header{
-        justify-content: right;
-        gap: 50px;
+        justify-content: space-between;
+
     }
+    .carroyrayas{
+        display: flex;
+        flex-direction: row;
+        margin-right: 5px;
+    }
+
+
+    .modalelementos{
+        background-color: white;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
 }

@@ -1,0 +1,58 @@
+[
+    {
+        "id":0,
+        "nombre":"Lápiz",
+        "precio":100,
+        "img": "./img/productos/lapiz.jpg",
+        "descrip":"Lapiz tipo negro. Marca FaberCastell"
+    },
+    {
+        "id":1,
+        "nombre":"Voligoma",
+        "precio":200,
+        "img":"./img/productos/voli.jpg",
+        "descrip":"Adhesivo. Pega papel, cartón, entre otros. No tóxico."
+    },
+    {
+        "id":2,
+        "nombre":"Cuaderno",
+        "precio":1000,
+        "img":"./img/productos/cuaderno.png",
+        "descrip":"200 hijas. Marca  Aurora. Papel de alta calidad. 23cmx17cm."
+    },
+    {
+        "id":3,
+        "nombre":"Cartuchera",
+        "precio":8000,
+        "img":"./img/productos/cartuchera.jpg",
+        "descrip":"Dos pisos. Alta calidad, no recomendable para niños."
+    },
+    {
+        "id":4,
+        "nombre":"Regla",
+        "precio":400,
+        "img":"./img/productos/regla.jpg",
+        "descrip":"Presentaciones de 15, 20 y 50 cm."
+    },
+    {
+        "id":5,
+        "nombre":"Sacapuntas",
+        "precio":500,
+        "img":"./img/productos/sacapuntas.jpg",
+        "descrip":"Marca FaberCastell. Diámetro máximo de 66mm"
+    },
+    {
+        "id":6,
+        "nombre":"Lápices de colores",
+        "precio":3000,
+        "img":"./img/productos/colores.jpg",
+        "descrip":"Cajas de 12 o 24 lápices. Marca FaberCastell. Opción acuarelable."
+    },
+    {
+        "id":7,
+        "nombre":"Resaltador",
+        "precio":1000,
+        "img":"./img/productos/resaltador.jpg",
+        "descrip":"Marca Edding. Rosa, Naranja o Verde."
+    }
+]
