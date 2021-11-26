@@ -138,7 +138,8 @@ if (carrito.length==0){
 
 if (carrito.length!=0){
     $('#total').append(`<h6 style="background-color:white" >Total:  $</h6>`+(precio))
-    $('#borrartodo').append(`<button onclick="localStorage.clear(carrito); location.reload()"  class="btn-agregar">Vaciar el Carrito</button>`)
+    $('#borrartodo').append(`<button onclick="localStorage.clear(carrito); location.reload()"  class="btn-agregar">Vaciar el Carrito</button>
+    <button class="btn-agregar">Comprar</button>`)
 }
 
 console.log(precio)
